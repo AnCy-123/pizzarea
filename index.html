@@ -1,0 +1,88 @@
+<!---https://image.freepik.com/free-photo/tasty-pepperoni-pizza-black-concrete-background_79782-103.jpg-->
+<!---https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTCQVKXeXOcK56Dq6XccXIqCEjJGMV7HXiyBQ&usqp=CAU-->  
+<html>
+    <head>
+        <title>
+            Pizzeria
+        </title>
+        <link rel="stylesheet" href="style.css">
+        
+    </head>
+    <body>
+        <div>
+            <center>
+                <ul>
+                    <a href="index.html">
+                        <li>
+                            Pizzeria
+                        </li>
+                    </a>
+                    <span class="rightalign">
+                        <a href="view.html">
+                            <li>
+                                View Menu
+                            </li>
+                        </a>
+                        <a href="recomend.html">
+                            <li>
+                                .                                                                    .
+                            </li>
+                        </a>
+                        
+                    </span>
+                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                </ul>
+            </center>
+        </div>
+        <br>
+        <div><ol><button id="menu" onclick="show(); getMenu()">Show Today's Special</button><br><br><br></ol><div></div>
+        <div><ol><button id="show" onclick="hide()">Hide Today's Special</button><br><br><br></ol><div></div>
+            <br><br><div class="menuItems">
+            
+        <ol id="items1" class="menu">1. &nbsp;&nbsp;Pepperoni Pizza</ol>
+        <ol id="items2" class="menu">2. &nbsp;&nbsp;Meat Pizza</ol>
+        <ol id="items3" class="menu">3. &nbsp;&nbsp;Margherita Pizza</ol>
+        <ol id="items4" class="menu">4. &nbsp;&nbsp;BBQ Chicken Pizza</ol>
+        <ol id="items5" class="menu">5. &nbsp;&nbsp;Hawaiian Pizza</ol>
+        <ol id="items6" class="menu">6. &nbsp;&nbsp;Chicago Pizza</ol>
+    </div>
+        </div>
+            
+        </div>
+    
+        <script>
+            document.getElementById("items1").style.display = "none";
+document.getElementById("items2").style.display = "none";
+document.getElementById("items3").style.display = "none";
+document.getElementById("items4").style.display = "none";
+document.getElementById("items5").style.display = "none";
+document.getElementById("items6").style.display = "none";
+document.getElementById("menu").style.display = "block";
+document.getElementById("show").style.display = "none";
+            
+function show() {
+    document.getElementById("items1").style.display = "block";
+    document.getElementById("items2").style.display = "block";
+    document.getElementById("items3").style.display = "block";
+    document.getElementById("items4").style.display = "block";
+    document.getElementById("items5").style.display = "block";
+    document.getElementById("items6").style.display = "block";
+    document.getElementById("menu").style.display = "none";
+    document.getElementById("show").style.display = "block";x   
+}
+function hide() {
+    document.getElementById("show").style.display = "none";
+    document.getElementById("items1").style.display = "none";
+    document.getElementById("items2").style.display = "none";
+    document.getElementById("items3").style.display = "none";
+    document.getElementById("items4").style.display = "none";
+    document.getElementById("items5").style.display = "none";
+    document.getElementById("items6").style.display = "none";
+    document.getElementById("menu").style.display = "block";
+}
+        </script>
+        <script src="main.js">
+
+        </script>
+</body>
+</html>

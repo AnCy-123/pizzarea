@@ -1,0 +1,164 @@
+@import url('https://fonts.googleapis.com/css2?family=Londrina+Solid&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Londrina+Solid:wght@100;400&display=swap');
+body{
+    margin-top: 20px;
+    background-image: url('https://image.freepik.com/free-photo/tasty-pepperoni-pizza-black-concrete-background_79782-103.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+    padding-top: 75px;
+}
+ul{
+    background: rgb(31, 30, 30);
+    color: white;
+    font-family: Londrina Solid;
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    width: 100%;
+    display: inline;
+    list-style: none;
+     text-decoration: none;
+     padding-right: 500px;
+     
+}
+ul a{
+    color: white;
+    font-size: 23px;
+    text-decoration: none;
+}
+ul li{
+    float: left;
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-top: 20px;
+     padding-bottom: 20px;
+     transition-duration: 0.4s;
+     float: left;
+}
+li:hover{
+    background: rgb(226, 226, 226);
+    color: #000000;
+}
+.rightalign{
+    float: right;
+}
+.menuItems{
+    float: right;
+    font-family: londrina Solid;
+    font-size: 30px;
+    color: white;
+    list-style:none;
+    margin-right: 150px;
+}
+#menu{
+    background: rgb(201, 2, 2);
+    color: white;
+    font-family: londrina solid;
+    float: right;
+    width: 250px;
+    padding: 15px 15px 5px 20px;
+    text-align: center;
+    font-size: 30px;
+    margin: 0px 150px auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 30px;
+    border: none;
+    border-bottom-style: solid;
+    border-bottom-color: rgb(155, 15, 43);
+    border-bottom-width: 7px;
+    outline: none;
+    cursor: pointer;
+    transition-duration: 0.5s;
+}
+#menu:active{
+    margin-top: 7px;
+    border-bottom-width: 1px;
+}
+ol{
+    transition-duration: 0.6s;
+}
+#show{
+    background: rgb(201, 2, 2);
+    color: white;
+    font-family: londrina solid;
+    float: right;
+    width: 250px;
+    padding: 15px 15px 5px 20px;
+    text-align: center;
+    font-size: 30px;
+    margin: 0px 150px auto;
+    margin-top: -60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 30px;
+    border: none;
+    border-bottom-style: solid;
+    border-bottom-color: rgb(155, 15, 43);
+    border-bottom-width: 7px;
+    outline: none;
+    cursor: pointer;
+    transition-duration: 0.5s;
+}
+#show:active{
+    margin-top: 7px;
+    border-bottom-width: 1px;
+}
+.btn{
+    background: rgb(201, 2, 2);
+    color: white;
+    font-family: londrina solid;
+    width: 250px;
+    padding: 15px 15px 5px 20px;
+    text-align: center;
+    font-size: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 30px;
+    border: none;
+    border-bottom-style: solid;
+    border-bottom-color: rgb(155, 15, 43);
+    border-bottom-width: 7px;
+    outline: none;
+    cursor: pointer;
+    transition-duration: 0.5s;
+}
+.btn:active{
+    margin-top: 7px;
+    border-bottom-width: 1px;
+}
+input{
+    background: transparent;
+    color: white;
+    caret-color: red;
+    font-size: 20px;
+    border: none;
+    font-family: londrina solid;
+    outline: none;
+}
+.con{
+    background:peachpuff;
+    font-family: londrina;
+    padding: 20px 20px 15px 15px;
+    width: 50%;
+    border-radius: 30px;
+}
+.con img{
+    width: 50px;
+    height: 50px;
+}
+p{
+    font-family: londrina solid;
+}
+h2{
+    font-family: londrina solid;
+}
+.m{
+    display: inline;
+    overflow: auto;
+}
